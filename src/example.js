@@ -1,17 +1,16 @@
-// This file contains intentional linting errors to demonstrate the workflow
+// This file demonstrates proper linting standards
 
-const unusedVariable = 'This variable is not used';
+// Removed unused variable
 
 class ExampleClass {
   constructor() {
-    this.property = "double quotes should be single";
+    this.property = 'single quotes should be used';
   }
 
   exampleMethod() {
     console.log('This is a console log that should only warn');
-    let badSemicolon = "missing semicolon"
-    return `This uses template literals which might not be preferred`;
+    let goodSemicolon = 'has proper semicolon';
+    return 'Uses single quotes consistently';
   }
 }
-
-// Missing closing brace for the class
+// Properly closed class declaration
